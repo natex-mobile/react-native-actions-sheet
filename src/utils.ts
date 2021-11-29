@@ -1,5 +1,5 @@
 import { Dimensions, Platform, StatusBar } from "react-native";
-
+// from natex
 export function getDeviceHeight(statusBarTranslucent: boolean | undefined):number {
   var height = Dimensions.get("window").height;
 
